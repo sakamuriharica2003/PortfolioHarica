@@ -422,4 +422,17 @@ p {
         width: 150px;
         height: 150px;
     }
+
+    /* Contact Section Link Styling */
+    .contact-info a {
+        color: #0056b3; /* Strong readable blue */
+        font-weight: 600; /* Slightly bold for emphasis */
+        text-decoration: none;
+    }
+
+        .contact-info a:hover {
+            color: #003f7f; /* Darker on hover */
+            text-decoration: underline;
+        }
+
 }
