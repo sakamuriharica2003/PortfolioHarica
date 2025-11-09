@@ -73,6 +73,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\harica.jpg" />
     <Content Include="Login.aspx" />
+    <Content Include="Login2.aspx" />
     <Content Include="LoginSuccess.aspx" />
     <Content Include="Projects.aspx" />
     <Content Include="styles.css" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.aspx.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login2.aspx.designer.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginSuccess.aspx.cs">
       <DependentUpon>LoginSuccess.aspx</DependentUpon>
