@@ -21,7 +21,7 @@ namespace PortfolioHarica
 
     public partial class Login2 : System.Web.UI.Page
 
-    {
+    { 
 
         private string ComputeSha256Hash(string rawData)
 

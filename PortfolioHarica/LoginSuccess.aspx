@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="PageTitle" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-<p> Welcome!    You are successfully authenticated. </p>
+<p > Welcome! </p>
+   <p> You are successfully authenticated. </p>
  
 </asp:Content>
