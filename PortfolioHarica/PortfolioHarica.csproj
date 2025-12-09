@@ -71,6 +71,8 @@
     <Content Include="AccountSuccess.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Delete.aspx" />
+    <Content Include="DeleteSuccess.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\harica.jpg" />
     <Content Include="Login.aspx" />
@@ -110,6 +112,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSuccess.aspx.cs">
+      <DependentUpon>DeleteSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteSuccess.aspx.designer.cs">
+      <DependentUpon>DeleteSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

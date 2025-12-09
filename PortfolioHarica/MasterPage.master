@@ -23,7 +23,9 @@
                         <li id="liContact" runat="server" ><a href="Contact.aspx">Contact</a></li>
  
 <!-- Per instructions: Login link remains visible whether logged in or not -->
-                        <li><a href="Login.aspx">Login</a></li>
+                        <li><a href="Login2.aspx">Login</a></li>
+                         <li><a href="Registration.aspx">Register</a></li>
+
                         
                     </ul>
                 </nav>

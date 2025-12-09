@@ -10,8 +10,9 @@ namespace PortfolioHarica
             if (Session["Email"] == null)
             {
                 //If doesn’t exist, redirects to login page
-                Response.Redirect("Login.aspx");
+                Response.Redirect("Login2.aspx");
             }
+            
         }
     }
 }
